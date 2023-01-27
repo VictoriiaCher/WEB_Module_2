@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "my-helper"
+version = "0.1.0"
+description = ""
+authors = ["VictoriiaCher <cherevchenko.victoriy@gmail.com>"]
+readme = "README.md"
+packages = [{include = "my_helper"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+prompt-toolkit = "^3.0.36"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
